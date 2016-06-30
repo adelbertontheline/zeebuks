@@ -96,20 +96,44 @@
         <div class="site-nav nav-right">
     		<!-- <button type="button" class="btn btn-success">Sign in</button>
     		<button type="button" class="btn btn-primary">Create Account</button> -->
-        	<a href=""><span class="glyphicon glyphicon-search"></span></a>
-        </div>
-        	
+        	<a href="#searchModal" role="button" data-toggle="modal"><span class="glyphicon glyphicon-search"></span></a>
+        </div>	
 	</header>
+
+
 
 
 
 	<main>
 		<section class="stage">
-			<div class="stage-bg">
-				<div class="stage-logo">
+			<div class="section-content">
+				<div class="container">
+					<div class="col-sm-12 col-xs-12">
+						<!-- <h1 class="stage-title">Zeebuks</h1>
+						<h4 class="stage-tagline">Discover and Read Innovative Ideas</h4> -->
+						<img class="stage-logo" src="img/stage.png">
+
+						<br>
+
+						<form>
+							<div class="form-group">
+								<label class="sr-only">Username</label>
+								<input type="text" class="form-control form-control-lg center-block stage-input-field" id="username" placeholder="Username"></input>
+							</div>
+							<div class="form-group">
+								<label class="sr-only">Password</label>
+								<input type="password" id="pw" class="form-control form-control-lg center-block stage-input-field" placeholder="Password"></input>
+							</div>
+							<button type="button" class="btn btn-primary btn-lg" id="stage-login-btn">Sign in</button>
+						</form>
+						<br>
+						<p>New to Zeebuks? <a href="#createAccountModal" role="button" data-toggle="modal"><strong>Create your FREE ACCOUNT</strong></a></p>
+					</div>
 				</div>
 			</div>
 		</section>
+
+
 
 		<section>
 			<ul class="services-container">
@@ -164,6 +188,8 @@
 			</ul>
 		</section>
 
+
+
 		<section class="summary">
 			<div class="sudlanan">
 				<div class="container">
@@ -212,6 +238,46 @@
 				</div>
 			</div>
 		</section>
+
+
+
+		<section class="new-releases">
+			<div class="sudlanan">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-12">
+							<center>
+								<h1 style="font-size: 45px">New Releases</h1>
+								<br>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam sint suscipit illum at autem quis nostrum repudiandae sed. Molestiae eum quos delectus officia, porro repellat rem ducimus nesciunt mollitia voluptas.
+								</p>
+								<br>
+							</center>
+						</div>
+					</div>
+					<div class="row">
+						<ul class="book">
+							<li class="book-item"><a href=""><img src="book/b2.jpg" alt=""></a></li>
+							<li class="book-item"><a href=""><img src="book/b2.jpg" alt=""></a></li>
+							<li class="book-item"><a href=""><img src="book/b2.jpg" alt=""></a></li>
+							<li class="book-item"><a href=""><img src="book/b2.jpg" alt=""></a></li>
+							<li class="book-item"><a href=""><img src="book/b2.jpg" alt=""></a></li>
+							<li class="book-item"><a href=""><img src="book/b2.jpg" alt=""></a></li>
+							<li class="book-item"><a href=""><img src="book/b2.jpg" alt=""></a></li>
+							<li class="book-item"><a href=""><img src="book/b2.jpg" alt=""></a></li>
+							<li class="book-item"><a href=""><img src="book/b2.jpg" alt=""></a></li>
+							<li class="book-item"><a href=""><img src="book/b2.jpg" alt=""></a></li>
+							<li class="book-item"><a href=""><img src="book/b2.jpg" alt=""></a></li>
+							<li class="book-item"><a href=""><img src="book/b2.jpg" alt=""></a></li>
+							<li class="book-item"><a href=""><img src="book/b2.jpg" alt=""></a></li>
+							<li class="book-item"><a href=""><img src="book/b2.jpg" alt=""></a></li>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
 	</main> <!-- end of main -->
 
 
@@ -267,6 +333,119 @@
 	</footer> <!-- end of footer -->
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="modal fade" id="searchModal">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<!-- <div class="modal-header">
+					
+				</div> -->
+				<div class="modal-body">
+					<button class="close" data-dismiss="modal" style="font-size:40px">&times;</button>
+					<h2 class="modal-title text-primary">Search Zeebuks</h2>
+					<br>
+					<form>
+						<div class="input-group">
+      						<input type="text" class="form-control form-control-lg" placeholder="Search">
+						    <span class="input-group-btn">
+						    	<button class="btn btn-lg" type="button"><span class="glyphicon glyphicon-search"></span></button>
+						    </span>
+    					</div>	
+					</form>
+
+					<br><br>
+
+					<div class="search-modal-content">
+						<h4>What can you search</h4>
+						<p>Try searching for the book you like. We'll do the rest.</p>
+
+						<h4>Contact Us</h4>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea comm
+						</p>
+
+						<h4>About us</h4>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea comm
+						</p>
+					</div>
+					
+					<!-- <h5>REQUEST AN APPOINTMENT</h5> -->
+					
+					<!-- <form>
+						<fieldset class="form-group">
+							<label class="sr-only">First Name</label>
+							<input type="text" class="form-control form-control-lg center-block" placeholder="First Name"></input>
+						</fieldset>
+						<fieldset class="form-group">
+							<label class="sr-only">Last Name</label>
+							<input type="text" class="form-control form-control-lg center-block" placeholder="Last Name"></input>
+						</fieldset>
+					</form> -->
+
+				</div> <!-- end of modal-body -->
+			</div> <!-- end of modal content -->
+		</div> <!-- end of modal-dialog -->
+	</div> <!-- end of searchModal -->
+
+
+	<div class="modal fade" id="createAccountModal">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button class="close" data-dismiss="modal" style="font-size:40px">&times;</button>
+					<h3 class="text-primary"><span class="glyphicon glyphicon-user"></span> Create Account</h3>
+				</div>
+				<div class="modal-body">
+					<img class="modal-logo center-block" src="img/logo.png">
+					<form>
+						<fieldset class="form-group">
+							<label class="sr-only">Username</label>
+							<input type="text" class="form-control form-control-lg center-block" placeholder="Username"></input>
+						</fieldset>
+						<fieldset class="form-group">
+							<label class="sr-only">First Name</label>
+							<input type="text" class="form-control form-control-lg center-block" placeholder="First Name"></input>
+						</fieldset>
+						<fieldset class="form-group">
+							<label class="sr-only">Last Name</label>
+							<input type="text" class="form-control form-control-lg center-block" placeholder="Last Name"></input>
+						</fieldset>
+						<fieldset class="form-group">
+							<label class="sr-only">Contact Number</label>
+							<input type="number" class="form-control form-control-lg center-block" placeholder="Contact Number"></input>
+						</fieldset>
+						<fieldset class="form-group">
+							<label class="sr-only">Email</label>
+							<input type="email" class="form-control form-control-lg center-block" placeholder="Email"></input>
+						</fieldset>
+						<fieldset class="form-group">
+							<label class="sr-only">Password</label>
+							<input type="password" class="form-control form-control-lg center-block" placeholder="Password"></input>
+						</fieldset>
+						<button type="button" class="btn-block btn-primary btn-lg">Create Account</button>
+					</form>
+					<br>
+
+				</div> <!-- end of modal-body -->
+			</div> <!-- end of modal content -->
+		</div> <!-- end of modal-dialog -->
+	</div> <!-- end of searchModal -->
 
 
 
