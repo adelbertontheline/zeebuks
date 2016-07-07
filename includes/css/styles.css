@@ -13,19 +13,18 @@ html, body {
     align-items: center;
 }
 
-.site-nav ul {
+.menu {
     list-style: none;
     display: flex;
     margin: 0;
 }
 
-.site-nav li {
+.menu__item {
     font-family: Verdana;
     font-size: 14px;
 }
 
-
-.site-nav a {
+.menu__item a {
     text-transform: uppercase;
     text-decoration: none;
     color: white;
@@ -33,18 +32,11 @@ html, body {
     display: inline-block;
 }
 
-.site-nav a:hover {
+.menu__item a:hover {
     background: rgba(0,0,0,0.7);
 }
 
-.header-logo {
-    display: inline;
-    width: 100px;
-    height: auto;
-    margin-left: 5vw;
-}
-
-.nav-right {
+.menu__item--right {
     margin-left: auto;
     margin-right: 5vw;
 }
@@ -53,10 +45,15 @@ html, body {
     background: rgba(0,0,0,0.7);
 }
 
-.btn {
-    margin: 2px 5px;
+.logo {
+    margin-left: 5vw;
 }
 
+.logo__img {
+    display: inline;
+    width: 100px;
+    height: auto;
+}
 
 
 
@@ -98,10 +95,13 @@ html, body {
     margin-top: 50px;
 }
 
-.stage-input-field {
+.stage-input-field, #stage-login-btn {
     max-width: 300px;
 }
 
+#stage-login-btn {
+  border: none;
+}
 
 
 
