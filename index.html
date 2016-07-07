@@ -11,24 +11,38 @@
 	<script src="includes/js/modernizr-2.6.2.min.js"></script>
 </head>
 <body>
-	<header class="site-header navbar-fixed-top">
-        <a class="logo" href="#"><img class="logo__img" src="img/logo.png"></a>
-        <nav>
-        	<ul class="menu">
+
+	<button class="menu-toggle"></button>
+
+	<nav>
+	  <ul class="nav-menu">
+	    <li data-text="Home">Home</li>
+	    <li data-text="Projects">Services</li>
+	    <li data-text="About">About</li>
+	    <li data-text="Contact">Feedback</li>
+	    <li><a href="#searchModal" role="button" data-toggle="modal">Search</a></li>
+	  </ul>
+	</nav>
+	
+
+	<!-- <header class="site-header navbar-fixed-top">
+	        <a class="logo" href="#"><img class="logo__img" src="img/logo.png"></a>
+	        <nav>
+	        	<ul class="menu">
 	            <li class="menu__item active"><a href="##">home</a></li>
 	            <li class="menu__item"><a href="##">about</a></li>
 	            <li class="menu__item"><a href="#">services</a></li>
 	            <li class="menu__item"><a href="#">contact</a></li>
-	            <!-- <li class="icon">
+	            <li class="icon">
 	                <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
-	            </li> -->
-        	</ul>
-        </nav><!-- end of nav -->
-
-        <div class="menu__item menu__item--right">
-        	<a href="#searchModal" role="button" data-toggle="modal"><span class="glyphicon glyphicon-search"></span></a>
-        </div> 	
-	</header>
+	            </li>
+	        	</ul>
+	        </nav>end of nav
+	
+	        <div class="menu__item menu__itemright">
+	        	<a href="#searchModal" role="button" data-toggle="modal"><span class="glyphicon glyphicon-search"></span></a>
+	        </div> 	
+	</header> -->
 
 
 
@@ -56,7 +70,7 @@
 								<label class="sr-only">Password</label>
 								<input type="password" id="pw" class="form-control form-control-lg center-block stage-input-field" placeholder="Password"></input>
 							</div>
-							<button type="button" class="btn-block center-block btn-primary btn-lg" id="stage-login-btn">Login to Dashboard</button>
+							<input type="button" class="btn-block center-block btn-primary btn-lg" id="stage-login-btn" value="Login to Dashboard"></input>
 						</form>
 						<br>
 						<p>New to Zeebuks? <a href="#createAccountModal" role="button" data-toggle="modal"><strong>Create your FREE ACCOUNT</strong></a></p>
@@ -206,7 +220,7 @@
 
 		<section class="new-releases">
 			<div class="sudlanan">
-				<div class="container-fluid">
+				<div class="container">
 					<div class="row">
 						<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-12">
 							<center>
@@ -221,10 +235,6 @@
 					</div>
 					<div class="row">
 						<ul class="book">
-							<li class="book-item"><a href=""><img src="book/b2.jpg" alt=""></a></li>
-							<li class="book-item"><a href=""><img src="book/b2.jpg" alt=""></a></li>
-							<li class="book-item"><a href=""><img src="book/b2.jpg" alt=""></a></li>
-							<li class="book-item"><a href=""><img src="book/b2.jpg" alt=""></a></li>
 							<li class="book-item"><a href=""><img src="book/b2.jpg" alt=""></a></li>
 							<li class="book-item"><a href=""><img src="book/b2.jpg" alt=""></a></li>
 							<li class="book-item"><a href=""><img src="book/b2.jpg" alt=""></a></li>

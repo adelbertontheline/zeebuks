@@ -27,9 +27,8 @@ $(function() {
 	
 	// $('[rel="tooltip"]').tooltip();
 
-	$('button').on('click', function(){
+	$('.menu-toggle').on('click', function(){
   		$('body').toggleClass('open');
 	});
-	
 	
 });
