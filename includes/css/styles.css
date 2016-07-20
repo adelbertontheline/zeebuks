@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     min-height: 100vh;
     max-height: auto;
-    background: url('../../img/officebldg1.jpg') no-repeat;
+    background: url('../../img/officebldg.jpg') no-repeat;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
